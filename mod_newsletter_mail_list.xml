@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.4" client="site" method="upgrade">
+	<name>Newsletter Mail Lists</name>
+	<author>Joseph P. Gibson</author>
+	<creationDate>May 2018</creationDate>
+	<copyright>Copyright (C) 2018 Joseph Gibson - All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>joe@joesboat.org</authorEmail>
+	<authorUrl>www.joesboat.org</authorUrl>
+	<version>1.0</version>
+	<description>Generates lists of email and USMail newsletter addresses.</description>
+	<files>
+		<filename module="mod_newsletter_mail_list">mod_newsletter_mail_list.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+	</files>
+</extension>
